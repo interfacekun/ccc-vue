@@ -95,7 +95,7 @@ export default class Watcher {
             }
             this.cleanupDeps()
         }
-        console.warn("ddddd", this.deps.length);
+        // console.warn("ddddd", this.deps.length);
         return value
     }
 
